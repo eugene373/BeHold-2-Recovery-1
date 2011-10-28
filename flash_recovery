@@ -1,0 +1,5 @@
+#! /sbin/sh
+#
+# Warning: Flashing Recovery
+mount /sdcard
+dd if=/sdcard/recovery of=/dev/block/bml6 bs=4096

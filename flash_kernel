@@ -1,0 +1,5 @@
+#! /sbin/sh
+#
+# Warning: Flashing Kernel
+mount /sdcard
+dd if=/sdcard/kernel of=/dev/block/bml8 bs=4096
